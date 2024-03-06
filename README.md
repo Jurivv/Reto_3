@@ -3,8 +3,10 @@ https://www.mermaidchart.com/raw/dec473d7-c439-48aa-9ce7-a0e0f8df404f?theme=dark
 
 psudocodigo
 
-Variables Z numero natural iterable ,A  numero natural,i numero natural iterable
-Z cuenta la cantidad de divisores de A,i es posible divisor de A
+Variables Z numero natural iterable ,A  numero natural,i numero natural iterable.
+
+Z cuenta la cantidad de divisores de A,i es posible divisor de A.
+
 definir A como :["lista de 2 hasta  A+1"];
 definir valorinicial de i:  ["i=1"];
 definir valor inicial de z:  ["z=0"];
