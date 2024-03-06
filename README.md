@@ -2,15 +2,15 @@
 https://www.mermaidchart.com/raw/dec473d7-c439-48aa-9ce7-a0e0f8df404f?theme=dark&version=v0.1&format=svg
 psudocodigo
 Variables Z numero natural iterable ,A  numero natural,i numero natural iterable
-
-definir A como :["lista de 2 hasta  A+1"]
-definir valorinicial de i:  ["i=1"]
-definir valor inicial de z:  ["z=0"]
-establecer la condicion de :{"A>=i?"}
-si la condicion se cumple se realiza :["A/i"]
-establecer la condicion de:{"residuo de A/i es igual 0 ?"}
-si al condicion se cumple aumenta Z:  [z=z+1]
-se aumenta i: i=i+1
+Z cuenta la cantidad de divisores de A,i es posible divisor de A
+definir A como :["lista de 2 hasta  A+1"];
+definir valorinicial de i:  ["i=1"];
+definir valor inicial de z:  ["z=0"];
+establecer la condicion de :{"A>=i?"};
+si la condicion se cumple se realiza :["A/i"];
+establecer la condicion de:{"residuo de A/i es igual 0 ?"};
+si al condicion se cumple aumenta Z:  [z=z+1];
+se aumenta i: i=i+1;
 cuando la condicion A>=i ya no se cumpla si z=2,entonces el numero es primo en caso contrario no es primo
 
 https://www.mermaidchart.com/raw/6617765a-b5c3-4697-b67c-1d634f1c365d?theme=dark&version=v0.1&format=svg
